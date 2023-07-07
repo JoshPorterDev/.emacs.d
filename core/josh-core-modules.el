@@ -26,6 +26,9 @@
 ;; Theme
 (require 'josh-modus-theme)
 
+;; Editor
+(require 'josh-neotree)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
