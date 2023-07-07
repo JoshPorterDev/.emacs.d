@@ -30,6 +30,7 @@
 (require 'josh-core-settings)
 (require 'josh-core-packages)
 (require 'josh-core-theme)
+(require 'josh-core-evil)
 
 (provide 'josh-core-init)
 
