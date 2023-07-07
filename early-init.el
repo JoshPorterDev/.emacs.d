@@ -14,4 +14,6 @@
 (setq tool-bar-mode nil
       menu-bar-mode nil)
 
+(setq package-enable-at-startup nil)
+
 ;;; early-init.el ends here

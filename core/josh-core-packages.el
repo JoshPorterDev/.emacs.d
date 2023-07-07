@@ -10,7 +10,7 @@
 ;;; Code:
 
 ;; Ensure all packages are installed by default
-(setq straight-use-by-default t
+(setq straight-use-package-by-default t
       use-package-always-ensure nil)
 
 (defvar bootstrap-version)
