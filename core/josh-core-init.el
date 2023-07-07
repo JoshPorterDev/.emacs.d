@@ -30,6 +30,7 @@
 (require 'josh-core-utils)
 (require 'josh-core-settings)
 (require 'josh-core-packages)
+(require 'josh-core-keybinds)
 (require 'josh-core-modules)
 
 (provide 'josh-core-init)
