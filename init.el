@@ -9,6 +9,8 @@
 
 ;;; Code:
 
+(setq gc-cons-threshold (* 50 1000 1000))
+
 (setq load-prefer-newer t)
 (load (expand-file-name "core/josh-core-init.el"
 			(file-name-directory load-file-name)))
