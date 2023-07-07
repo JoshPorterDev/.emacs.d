@@ -23,6 +23,11 @@
   :init
   (marginalia-mode))
 
+(use-package orderless
+  :custom
+  (completion-styles '(orderless basic))
+  (completion-category-overrides '((file (styles basic partial-completion)))))
+
 (provide 'josh-core-vertico)
 
 ;;; josh-core-vertico.el ends here
