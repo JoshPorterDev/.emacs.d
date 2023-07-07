@@ -9,6 +9,10 @@
 
 ;;; Code:
 
+(defun display-startup-echo-area-message ()
+  "Display startup echo area message."
+  (message "Emacs initialized in %s" (emacs-init-time)))
+
 (defvar josh-core-dir (file-name-directory load-file-name)
   "Directory for all core files.")
 
