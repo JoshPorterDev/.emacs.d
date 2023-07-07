@@ -1,4 +1,4 @@
-;;; josh-core-theme.el --- Josh's Emacs Config: Vertico
+;;; josh-vertico.el --- Josh's Emacs Config: Vertico
 
 ;; Author: Josh Porter <josh@joshporter.xyz>
 ;; URL: https://github.com/joshporterdev/.emacs.d
@@ -28,6 +28,6 @@
   (completion-styles '(orderless basic))
   (completion-category-overrides '((file (styles basic partial-completion)))))
 
-(provide 'josh-core-vertico)
+(provide 'josh-vertico)
 
-;;; josh-core-vertico.el ends here
+;;; josh-vertico.el ends here

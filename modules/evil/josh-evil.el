@@ -1,4 +1,4 @@
-;;; josh-core-evil.el --- Josh's Emacs Config: Evil mode
+;;; josh-evil.el --- Josh's Emacs Config: Evil mode
 
 ;; Author: Josh Porter <josh@joshporter.xyz>
 ;; URL: https://github.com/joshporterdev/.emacs.d
@@ -22,6 +22,6 @@
   :config
   (evil-collection-init))
 
-(provide 'josh-core-evil)
+(provide 'josh-evil)
 
-;;; josh-core-evil.el ends here
+;;; josh-evil.el ends here

@@ -27,11 +27,10 @@
 (load-file custom-file)
 
 ;; Require modules
+(require 'josh-core-utils)
 (require 'josh-core-settings)
 (require 'josh-core-packages)
-(require 'josh-core-theme)
-(require 'josh-core-evil)
-(require 'josh-core-vertico)
+(require 'josh-core-modules)
 
 (provide 'josh-core-init)
 
