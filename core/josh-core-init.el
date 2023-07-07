@@ -31,6 +31,7 @@
 (require 'josh-core-packages)
 (require 'josh-core-theme)
 (require 'josh-core-evil)
+(require 'josh-core-vertico)
 
 (provide 'josh-core-init)
 
