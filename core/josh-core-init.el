@@ -28,6 +28,7 @@
 
 ;; Require modules
 (require 'josh-core-settings)
+(require 'josh-core-packages)
 (require 'josh-core-theme)
 
 (provide 'josh-core-init)
