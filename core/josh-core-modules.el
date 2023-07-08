@@ -28,6 +28,7 @@
 
 ;; Editor
 (require 'josh-neotree)
+(require 'josh-projectile)
 
 (provide 'josh-core-modules)
 
