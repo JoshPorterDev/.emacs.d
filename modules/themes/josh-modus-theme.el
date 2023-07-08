@@ -9,7 +9,15 @@
 
 ;;; Code:
 
-(load-theme 'modus-vivendi)
+(use-package modus-themes)
+
+;; Remove the border
+(setq modus-themes-common-palette-overrides
+      '((border-mode-line-active unspecified)
+        (border-mode-line-inactive unspecified)
+	(fringe unspecified)))
+
+(load-theme 'modus-vivendi t)
 
 (provide 'josh-modus-theme)
 
