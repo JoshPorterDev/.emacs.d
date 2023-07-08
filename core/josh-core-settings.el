@@ -17,6 +17,9 @@
 (setq auto-save-default nil)
 (setq backup-inhibited t)
 
+(setq scroll-step 1)
+(setq scroll-conservatively 101)
+
 (provide 'josh-core-settings)
 
 ;;; josh-core-settings.el ends here
