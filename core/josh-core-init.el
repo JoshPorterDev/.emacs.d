@@ -32,6 +32,7 @@
 
 ;; Require modules
 (require 'josh-core-utils)
+(require 'josh-core-fonts)
 (require 'josh-core-modeline)
 (require 'josh-core-settings)
 (require 'josh-core-packages)
