@@ -26,6 +26,9 @@
 ;; Theme
 (require 'josh-modus-theme)
 
+;; UI
+(require 'josh-dashboard)
+
 ;; Editor
 (require 'josh-neotree)
 (require 'josh-projectile)
