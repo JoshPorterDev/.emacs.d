@@ -42,6 +42,9 @@
 ;; Version control
 (require 'josh-magit)
 
+;; Languages
+(require 'josh-lua)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
