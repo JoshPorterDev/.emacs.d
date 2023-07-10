@@ -25,7 +25,8 @@
 (require 'josh-evil)
 
 ;; Theme
-(require 'josh-modus-theme)
+;;(require 'josh-modus-theme)
+(require 'josh-gruvbox-theme)
 
 ;; UI
 (require 'josh-dashboard)
