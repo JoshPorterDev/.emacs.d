@@ -44,6 +44,7 @@
 
 ;; Languages
 (require 'josh-lua)
+(require 'josh-go)
 
 (provide 'josh-core-modules)
 
