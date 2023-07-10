@@ -19,6 +19,7 @@
 
 ;; Completion
 (require 'josh-vertico)
+(require 'josh-corfu)
 
 ;; Evil mode
 (require 'josh-evil)
