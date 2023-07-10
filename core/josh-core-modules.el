@@ -39,6 +39,9 @@
 ;; LSP
 (require 'josh-eglot)
 
+;; Version control
+(require 'josh-magit)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
