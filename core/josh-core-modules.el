@@ -32,6 +32,7 @@
 (require 'josh-dashboard)
 
 ;; Editor
+(require 'josh-treesitter)
 (require 'josh-neotree)
 (require 'josh-projectile)
 
