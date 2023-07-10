@@ -36,6 +36,9 @@
 (require 'josh-neotree)
 (require 'josh-projectile)
 
+;; LSP
+(require 'josh-eglot)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
