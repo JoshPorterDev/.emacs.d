@@ -16,6 +16,7 @@
 (electric-pair-mode 1)
 (setq auto-save-default nil)
 (setq backup-inhibited t)
+(setq-default tab-width 4)
 
 (setq scroll-step 1)
 (setq scroll-conservatively 101)
