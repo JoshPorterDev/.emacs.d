@@ -41,6 +41,9 @@
 ;; LSP
 (require 'josh-eglot)
 
+;; Terminal
+(require 'josh-vterm)
+
 ;; Version control
 (require 'josh-magit)
 
