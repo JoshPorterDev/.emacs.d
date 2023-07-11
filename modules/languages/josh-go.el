@@ -9,7 +9,13 @@
 
 ;;; Code:
 
-(use-package go-mode)
+(use-package go-mode
+  :mode "\\.go\\'"
+  :bind (:map go-mode-map
+			  ("<f6>" . gofmt)
+			  ("C-c 6" . gofmt))
+  :config
+  (add-hook 'go-mode-hook #'eglot-ensure))
 
 (provide 'josh-go)
 
