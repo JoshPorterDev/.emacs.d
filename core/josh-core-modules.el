@@ -21,6 +21,7 @@
 (require 'josh-vertico)
 (require 'josh-corfu)
 (require 'josh-embark)
+(require 'josh-consult)
 
 ;; Evil mode
 (require 'josh-evil)
