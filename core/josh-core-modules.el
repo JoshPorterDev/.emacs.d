@@ -39,7 +39,8 @@
 (require 'josh-projectile)
 
 ;; LSP
-(require 'josh-eglot)
+;;(require 'josh-eglot)
+(require 'josh-lsp-mode)
 
 ;; Terminal
 (require 'josh-vterm)
