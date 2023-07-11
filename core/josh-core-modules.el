@@ -51,6 +51,9 @@
 (require 'josh-lua)
 (require 'josh-go)
 
+;; GPG
+(require 'josh-pinentry)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
