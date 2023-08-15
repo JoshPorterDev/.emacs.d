@@ -49,6 +49,7 @@
 (require 'josh-magit)
 
 ;; Languages
+(require 'josh-c)
 (require 'josh-lua)
 (require 'josh-go)
 
