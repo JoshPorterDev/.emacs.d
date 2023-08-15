@@ -17,9 +17,12 @@
 (setq auto-save-default nil)
 (setq backup-inhibited t)
 (setq-default tab-width 4)
+(setq ring-bell-function 'ignore)
 
 (setq scroll-step 1)
 (setq scroll-conservatively 101)
+
+(add-to-list 'default-frame-alist '(alpha-background . 95))
 
 (provide 'josh-core-settings)
 
