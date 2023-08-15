@@ -40,7 +40,7 @@
 
 ;; LSP
 ;;(require 'josh-eglot)
-(require 'josh-lsp-mode)
+;;(require 'josh-lsp-mode)
 
 ;; Terminal
 (require 'josh-vterm)
