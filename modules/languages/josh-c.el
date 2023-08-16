@@ -9,7 +9,11 @@
 
 ;;; Code:
 
-(setq c-ts-mode-indent-offset 4)
+(use-package c-ts-mode
+  :init
+  (setq c-ts-mode-indent-style 'bsd
+		c-ts-mode-indent-offset 4))
+
 (add-to-list 'major-mode-remap-alist '(c-mode . c-ts-mode))
 
 (provide 'josh-c)
