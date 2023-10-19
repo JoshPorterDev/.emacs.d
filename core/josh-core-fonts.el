@@ -12,7 +12,7 @@
 (set-face-attribute 'default nil
                        :font "JetBrainsMono NF"
                        :weight 'regular
-                       :height 100)
+                       :height 110)
 
 (provide 'josh-core-fonts)
 
