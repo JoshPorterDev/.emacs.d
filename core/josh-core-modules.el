@@ -56,6 +56,9 @@
 ;; GPG
 (require 'josh-pinentry)
 
+;; Email
+(require 'josh-notmuch)
+
 (provide 'josh-core-modules)
 
 ;;; josh-core-modules.el ends here
