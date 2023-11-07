@@ -9,7 +9,8 @@
 
 ;;; Code:
 
-(use-package consult)
+(use-package consult
+  :bind (("C-x b" . consult-buffer)))
 
 (provide 'josh-consult)
 
