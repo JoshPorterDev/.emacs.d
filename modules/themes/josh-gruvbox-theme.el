@@ -11,7 +11,7 @@
 
 (use-package gruvbox-theme)
 
-(load-theme 'gruvbox-dark-medium t)
+(load-theme 'gruvbox-dark-hard t)
 
 (provide 'josh-gruvbox-theme)
 
