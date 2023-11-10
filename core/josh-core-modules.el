@@ -33,6 +33,9 @@
 ;; UI
 (require 'josh-dashboard)
 
+;; LaTeX
+(require 'josh-auctex)
+
 ;; Editor
 (require 'josh-treesitter)
 (require 'josh-neotree)
