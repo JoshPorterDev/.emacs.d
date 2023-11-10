@@ -31,8 +31,8 @@
   ;; This is recommended since Dabbrev can be used globally (M-/).
   ;; See also `corfu-exclude-modes'.
   :init
-  (global-corfu-mode))
-  ;;(corfu-popupinfo-mode))
+  (global-corfu-mode)
+  (corfu-popupinfo-mode))
 
 (provide 'josh-corfu)
 
