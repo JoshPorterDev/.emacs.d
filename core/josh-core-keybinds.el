@@ -67,6 +67,8 @@
     "b n" '(next-buffer :wk "next buffer")
     "b r" '(revert-buffer :wk "revert buffer")))
 
+(global-set-key (kbd "<f5>") #'recompile)
+
 (provide 'josh-core-keybinds)
 
 ;;; josh-core-keybinds.el ends here
