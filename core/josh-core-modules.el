@@ -55,6 +55,7 @@
 (require 'josh-c)
 (require 'josh-lua)
 (require 'josh-go)
+(require 'josh-rust)
 
 ;; GPG
 (require 'josh-pinentry)

@@ -21,7 +21,8 @@
 	  '((c "https://github.com/tree-sitter/tree-sitter-c")
 		(cpp "https://github.com/tree-sitter/tree-sitter-cpp")
 		(go "https://github.com/tree-sitter/tree-sitter-go")
-		(gomod "https://github.com/camdencheek/tree-sitter-go-mod")))
+		(gomod "https://github.com/camdencheek/tree-sitter-go-mod")
+		(rust "https://github.com/tree-sitter/tree-sitter-rust")))
 
 (dolist (lang treesit-language-source-alist)
   (unless (treesit-language-available-p (car lang))
